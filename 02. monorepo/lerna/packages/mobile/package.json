@@ -1,0 +1,19 @@
+{
+  "name": "mobile",
+  "version": "0.0.0",
+  "description": "mobile package",
+  "author": "seohyun319 <tjguselly0319@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/mobile.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/mobile.test.js"
+  }
+}
