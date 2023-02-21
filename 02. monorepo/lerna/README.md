@@ -19,3 +19,12 @@ CLI를 쉽게 사용하기 위해 글로벌로 설치
 - web workspace를 생성함
   `lerna create web`
   `lerna create mobile`
+
+## 의존성 추가
+
+- 루트 프로젝트에 의존성 추가
+  `yarn add react --ignore-workspace-root-check`
+- workspace에 의존성 추가
+  `lerna add lodash --scope=mobile`
+- workspace에 workspace 추가 가능
+  `lerna add mobile@0.0.0 --scope=web`
