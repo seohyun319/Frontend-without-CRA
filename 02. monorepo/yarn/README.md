@@ -16,3 +16,7 @@
   "workspaces": ["packages/*"]
 }
 ```
+
+## packages 폴더 내부에 mobile, web, common 폴더 생성 후 각 폴더 안에서 package.json 생성
+
+각 폴더에서 `yarn init` 실행
