@@ -20,3 +20,7 @@
 ## packages 폴더 내부에 mobile, web, common 폴더 생성 후 각 폴더 안에서 package.json 생성
 
 각 폴더에서 `yarn init` 실행
+
+## 루트 경로에서 yarn 실행
+
+루트 경로에 node_modules 디렉터리에 workspace들에 대한 심볼릭 링크가 생성됨
